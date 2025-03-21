@@ -39,9 +39,6 @@
     color: white;
     display: flex;
     align-items: center;
-    image {
-        color: aqua;
-    }
 }
 
 .deleteButton {
