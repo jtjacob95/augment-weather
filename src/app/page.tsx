@@ -14,7 +14,7 @@ export type Location = {
 export default async function Page() {
 
   const headersList = await headers()
-  const homeCity = headersList.get('X-Vercel-IP-City') ?? "Misssouri City"
+  const homeCity = decodeURI(headersList.get('X-Vercel-IP-City') ?? "Misssouri City")
   const homeLat = headersList.get('x-vercel-ip-latitude') ?? "29.6186"
   const homeLon = headersList.get('x-vercel-ip-longitude') ?? "-95.5377"
   const homeLocation = {name:homeCity, lat:homeLat, lon:homeLon};
