@@ -1,0 +1,51 @@
+.card{
+    padding: 20px 24px;
+    filter: drop-shadow(2px 2px 10px #00000015);
+    background-color: white;
+    border-radius: 8px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.city{
+    margin-bottom: 8px;
+}
+
+.temp{
+    font-weight: normal;
+    margin-bottom: 8px;
+    font-size: 32px;
+    color: #eb6e4c;
+}
+
+.summary{
+    color: #3d3d3a;
+    margin-bottom: 12px;
+    flex-grow: 1;
+}
+
+.miniCardWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.miniCards{
+    padding: 8px 8px;
+    background-color: #eb6e4c;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    image {
+        color: aqua;
+    }
+}
+
+.deleteButton {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
