@@ -1,10 +1,12 @@
 This is a Next.js app built with typescript and deployed to Vercel
 
+To view deployed site go [here](https://augment-weather-joel.vercel.app/)
 
 ## Getting Started
-First, run the development server:
 npm intsall
 npm run dev
+
+API key for open weather is required in the .env file
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
